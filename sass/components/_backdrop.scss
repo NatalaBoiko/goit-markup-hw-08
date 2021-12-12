@@ -1,0 +1,15 @@
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--backdrop-bg-col);
+    position: fixed;
+    top: 0;
+    transition: opacity 1000ms, timing-function var(--timing-function), vicibility 1000ms;
+    
+
+&.is-hidden .modal{
+    transform: scale(0.25)  rotate(180deg);
+    transition-property: transform;
+    transition: transform 1000ms, timing-function var(--timing-function), vicibility 1000ms;
+}
+}

@@ -1,0 +1,38 @@
+p, 
+h1,
+h2, 
+h3,
+h4, 
+h5, 
+h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {text-decoration: none;
+display: inline-block;}
+a:hover,
+a:focus{
+    color: var(--one);
+}
+
+body {     
+    font-family: roboto,  sans-serif;  
+      } 
+
+.container {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;     
+        margin-right: auto;                
+        }

@@ -1,0 +1,98 @@
+.header{
+    border-bottom: 1px solid #ECECEC; 
+    padding-top: 24px;
+    padding-bottom: 24px;        
+          }            
+.header .container {
+            display: flex;
+            align-items: center;
+        }
+.h-name-blue {        
+    color: var(--one); 
+    font-family: Raleway;        
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,38;
+}
+.h-name-black-d {        
+    color:var(--full);
+    font-family: Raleway;        
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,38;   
+    
+}    
+.logo {  
+    display: flex;
+    margin-right: 93px;    
+}
+
+
+/*navigation*/
+
+.navigation-list {
+    color: var(--full);
+    display: flex;
+    align-items: center;
+       }
+.navigation-list>li:not(:last-child){
+           margin-right: 50px;
+       }
+.navigation-list-item {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14; 
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
+                }    
+.active{
+    color: var(--one);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;     
+    position: relative;
+}
+
+.active::after{
+    content: "";     
+    position: absolute;    
+    background-color: var(--one);
+    width: 100%;   
+    height: 4px;
+    border-radius: 2px;                      
+    top: 44px;
+    right: 0;
+}
+
+.contacts-list {
+    display: flex;
+    margin-left: auto;    
+}            
+.contacts-list >li:not(:last-child){
+    margin-right: 50px;
+}
+.contacts {
+    color: var(--light);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;      
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);            
+}    
+
+.header-icon{     
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;     
+    fill: var(--light);    
+    transition-property: fill;    
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
+       }
+a.contacts:focus .header-icon,
+a.contacts:hover .header-icon {
+ fill: var(--one);
+}
