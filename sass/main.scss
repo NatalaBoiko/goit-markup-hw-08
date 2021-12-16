@@ -1,5 +1,8 @@
 @import'./dase/vars';
 @import'./dase/reset';
+@import'./dase/body';
+@import'./dase/conteiner';
+@import'./dase/section-title';
  
 @import'./layout/header';
 @import'./layout/hero';
@@ -15,6 +18,7 @@
 @import'./components/modal';
 @import'./components/checkbox';
 @import'./components/modal-btn';
-
+@import'./utils/active';
+@import'./utils/hidden';
 
 
