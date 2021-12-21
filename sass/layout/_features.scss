@@ -1,67 +1,75 @@
 
        
-   .features-section{
+   .features-section{  
 
-        @media screen and (min-width: 480px){
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
+    padding-top: 60px;
+    padding-bottom: 60px;
+
         @media screen and (min-width:1200px){
             padding-top: 94px;
             padding-bottom: 94px;
         }
    }
+   
        .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-            @media screen and (min-width: 480px){
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
             @media screen and (min-width: 768px){
-            
-            }
-            @media screen and (min-width:1200px){
-                display: flex;
                 flex-direction: row;
-                // justify-content: space-between;
+                justify-content: center;
+        margin-bottom: 0px;
+            }
+
+            @media screen and (min-width:1200px){
+                justify-content:space-between;
                 margin-top: -30px;
                 margin-left: -30px;
             }
-               }     
+        }
        .features-conteiner{
-
-            @media screen and (min-width: 480px){
+           
+        width: 100%;
+        @media screen and (max-width: 767px){
+            &:not(:last-child){
                 margin-bottom: 30px;
             }
-            @media screen and (min-width: 768px){
-            
-            }
+        }
+
+            @media screen and (min-width: 480px) {                
+                width: 450px;
+           }
+            // @media screen and (min-width: 768px){
+            //     width: 354px;
+            //  margin: 15px;
+            //  flex-basis: calc(100% / 2 - 60px);
+            // }
             @media screen and (min-width:1200px){
                 flex-basis:calc(100%/4); 
                 margin-top: 30px;
                 margin-left: 30px;
             }
              }
-             .features-item{     
-                width: 450px;
+             .features-item{                    
                 height: 120px;
                background-color: 
                #F5F4FA;
                border-radius: 4px;
                margin-bottom: 30px;
                padding: 25px 100px;
+               display: flex;
+               justify-content: center;    
                @media screen and (min-width: 480px){
-
-                display: flex;
-                justify-content: center;    
+                width: 450px;                
                 }
-                @media screen and (min-width: 768px){
-            
-                }
+                
+                // @media screen and (min-width: 768px){
+                //     width: 354px;
+                
+                // }
                 @media screen and (min-width:1200px){
                     width: 270px;
-                    height: 120px;
                 }
            }
            .features-icon{
@@ -69,31 +77,33 @@
                height: 70px;
            }
         .features-title{
-
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.17;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        
                @media screen and (min-width: 480px){
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 1.17;
-                text-transform: uppercase;
-                margin-bottom: 10px;
-                display: flex;
-                justify-content: center;
-            }
+               }
             @media screen and (min-width: 768px){
                
             }
             @media screen and (min-width:1200px){
-                font-weight: 700;
+                font-weight:700;
                 font-size: 14px;
                 line-height: 1.17;
                 text-transform: uppercase;
                 margin-bottom: 10px;
                 display: inline;
             }
-           }
-        .features-desc{
+        }
+
+        .features-desc {
                font-weight: 400;
                font-size: 14px;
                line-height: 1.7;
                color: var(--light);          
-           }
+        }
+    
