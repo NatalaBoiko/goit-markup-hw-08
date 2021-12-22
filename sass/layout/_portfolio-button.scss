@@ -1,31 +1,32 @@
 .portfolio-button__thumb{
    display: flex;
    justify-content: center;
-   max-width: 450px;
    margin-left: auto;
    margin-right: auto;
-        @media screen and (min-width: 480px){
-            // width: 450;
-            // margin-left: auto;
-            // margin-right: auto;
-         }
-        @media screen and (min-width:1200px){
-            max-width:inherit; 
-         }     
+   @media screen and (max-width: 767px){
+      max-width: 450px;
+  }
 }
 
 .button-list{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-
+    margin-left: 30px;
+    @media screen and (min-width: 768px){
+      display: flex;
+      // justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+  }
      @media screen and (min-width:1200px){
-        display: flex;
-        justify-content: center;
+
         margin-bottom: 50px;
     }       
  }
  .button-list-item{
+
     margin-right: 8px;
     margin-bottom: 15px;
  
