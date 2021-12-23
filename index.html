@@ -189,15 +189,27 @@
                 <ul class="photo-list">
             
                     <li class="photo">
-                        <img src="./images/box-1.jpg" alt="Десктопные приложения" width="370">
+                        <img
+                        srcset="./images/box-1-desktop.jpg 1x,
+                        ./images/box-1-desktop@2x.jpg 2x
+                        "
+                         src="./images/box-1-desktop.jpg" alt="Десктопные приложения" width="">
                         <h3 class="photo-description">Десктопные приложения</h3>
                     </li>
                     <li class="photo">
-                        <img src="./images/box-2.jpg" alt="Мобильные приложения" width="370">
+                        <img 
+                        srcset="./images/box-2-desktop.jpg 1x,
+                        ./images/box-2-desktop@2x.jpg 2x
+                        "
+                        src="./images/box-2-desktop.jpg" alt="Мобильные приложения" width="">
                         <h3 class="photo-description">Мобильные приложения</h3>
                     </li>
                     <li class="photo">
-                        <img src="./images/box-3.jpg" alt="Дизайнерские решения" width="370">
+                        <img 
+                        srcset="./images/box-3-desktop.jpg 1x,
+                        ./images/box-3-desktop@2x.jpg 2x
+                        "
+                        src="./images/box-3-desktop.jpg" alt="Мобильные приложения" width="">
                         <h3 class="photo-description">Дизайнерские решения</h3>
                     </li>              
                 </ul>
@@ -213,7 +225,31 @@
                 <ul class="team-list">
 
                     <li class="team-list-item">
-                        <img src="./images/team-card-1.jpg" alt="Игорь Демьяненко" width="100%"> 
+                        <picture>
+                            <source
+                            srcset="
+                            ./images/team-1-desktop.jpg 1x,
+                            ./images/team-1-desktop@2x.jpg 2x
+                            "
+                            media="(min-width: 1200px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-1-tablet.jpg 1x,
+                            ./images/team-1-tablet@2x.jpg 2x
+                            "
+                            media="(min-width: 768px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-1.jpg 1x,
+                            ./images/team-1@2x.jpg 2x
+                            "
+                            media="(min-width: 480px)"
+                            >
+                            <img src="./images/team-1-desktop.jpg" alt="Игорь Демьяненко" width="100%"> 
+                        </picture>
+
                        <div class="team-list-desc">
                         <h3 class="team-name">Игорь Демьяненко</h3>              
                         <p class="team-desc">Product Designer</p>    
@@ -257,7 +293,31 @@
                     </li>                
 
                     <li class="team-list-item">
-                        <img src="./images/team-card-2.jpg" alt="Ольга Репина" width="100%">
+                        <picture>
+                            <source
+                            srcset="
+                            ./images/team-2-desktop.jpg 1x,
+                            ./images/team-2-desktop@2x.jpg 2x
+                            "
+                            media="(min-width: 1200px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-2-tablet.jpg 1x,
+                            ./images/team-2-tablet@2x.jpg 2x
+                            "
+                            media="(min-width: 768px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-2.jpg 1x,
+                            ./images/team-2@2x.jpg 2x
+                            "
+                            media="(min-width: 480px)"
+                            >
+                            <img src="./images/team-2-desktop.jpg" alt="Игорь Демьяненко" width="100%"> 
+                        </picture>
+
                      <div class="team-list-desc">
                         <h3 class="team-name">Ольга Репина</h3>
                         <p class="team-desc">Frontend Developer</p>
@@ -300,7 +360,31 @@
                     </li>
 
                     <li class="team-list-item">
-                        <img src="./images/team-card-3.jpg" alt="Михаил Ермаков" width="100%">
+                        <picture>
+                            <source
+                            srcset="
+                            ./images/team-3-desktop.jpg 1x,
+                            ./images/team-3-desktop@2x.jpg 2x
+                            "
+                            media="(min-width: 1200px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-3-tablet.jpg 1x,
+                            ./images/team-3-tablet@2x.jpg 2x
+                            "
+                            media="(min-width: 768px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-3.jpg 1x,
+                            ./images/team-3@2x.jpg 2x
+                            "
+                            media="(min-width: 480px)"
+                            >
+                            <img  src="./images/team-3-desktop.jpg" alt="Игорь Демьяненко" width="100%"> 
+                        </picture>
+
                       <div class="team-list-desc">
                         <h3 class="team-name">Михаил Ермаков</h3>
                         <p class="team-desc"> UI Designer</p>
@@ -343,7 +427,31 @@
                     </li>  
 
                     <li class="team-list-item">
-                        <img src="./images/team-card-4.jpg" alt="Михаил Ермаков" width="100%">
+                        <picture>
+                            <source
+                            srcset="
+                            ./images/team-4-desktop.jpg 1x,
+                            ./images/team-4-desktop@2x.jpg 2x
+                            "
+                            media="(min-width: 1200px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-4-tablet.jpg 1x,
+                            ./images/team-4-tablet@2x.jpg 2x
+                            "
+                            media="(min-width: 768px)"
+                            >
+                            <source
+                            srcset="
+                            ./images/team-4.jpg 1x,
+                            ./images/team-4@2x.jpg 2x
+                            "
+                            media="(min-width: 480px)"
+                            >
+                            <img src="./images/team-4-desktop.jpg" alt="Игорь Демьяненко" width="100%"> 
+                        </picture>
+
                       <div class="team-list-desc">
                         <h3 class="team-name">Михаил Ермаков</h3>
                         <p class="team-desc"> UI Designer</p>
