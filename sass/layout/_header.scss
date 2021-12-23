@@ -19,11 +19,14 @@
 
  .logo {  
      display: flex;
-     margin-right: 88px;    
+     margin-right: 130px;    
      font-family: Raleway;        
      font-weight: 700;
      font-size: 26px;
      line-height: 1,38; 
+     @media screen and (min-width: 768px){
+        margin-right: 88px; 
+    }
      @media screen and (min-width:1200px){
         margin-right: 93px;   
      }  
@@ -96,7 +99,6 @@ display: none;
      }     
 
      @media screen and (min-width:1200px){
-         margin-bottom: 0;
         .contacts-list-item:first-child{
             margin-right: 30px;
         }
