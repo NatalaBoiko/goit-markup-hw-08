@@ -1,13 +1,13 @@
-.portfolio-button__thumb{
-   display: flex;
-   justify-content: center;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: -15px;
-   @media screen and (max-width: 767px){
-      max-width: 450px;
-  }
-}
+// .portfolio-button__thumb{
+//    display: flex;
+//    justify-content: center;
+//    margin-left: auto;
+//    margin-right: auto;
+//    margin-top: -15px;
+//    @media screen and (max-width: 767px){
+//       max-width: 450px;
+//   }
+// }
 
 .button-list{
     display: flex;
@@ -15,15 +15,15 @@
     flex-wrap: wrap;
     margin-top: -15px;
     margin-left: -8px;
+    margin-bottom: 40px;
   @media screen and (min-width: 768px){
       display: flex;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 30px;
-      margin-top: 0;
+justify-content: center;
+margin-bottom: 30px;
   }
    @media screen and (min-width:1200px){
-        margin-bottom: 50px;
+     margin-top: 0;
+     margin-bottom: 50px;
     }       
  }
 
@@ -32,13 +32,8 @@
        margin-left: 8px;
     @media screen and (min-width:1200px){
        margin-top: 0;
-       margin-bottom: 0;
-       .button-list-item:not(:last-child){
-        margin-left: 8px;
-    }
   }   
  }
- 
  
  .button{
     font-family: inherit;

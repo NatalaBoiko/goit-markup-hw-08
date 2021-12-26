@@ -893,6 +893,7 @@ a.contacts:hover .header-icon {
   flex-direction: column;
   align-items: center;
   margin-left: -30px;
+  margin-top: -30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -900,8 +901,6 @@ a.contacts:hover .header-icon {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
   }
 }
 
@@ -910,8 +909,6 @@ a.contacts:hover .header-icon {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
   }
 }
 
@@ -994,40 +991,26 @@ a.contacts:hover .header-icon {
   line-height: 1.88;
 }
 
-.portfolio-button__thumb {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -15px;
-}
-
-@media screen and (max-width: 767px) {
-  .portfolio-button__thumb {
-    max-width: 450px;
-  }
-}
-
 .button-list {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: -15px;
   margin-left: -8px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .button-list {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
     margin-bottom: 30px;
-    margin-top: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .button-list {
+    margin-top: 0;
     margin-bottom: 50px;
   }
 }
@@ -1040,10 +1023,6 @@ a.contacts:hover .header-icon {
 @media screen and (min-width: 1200px) {
   .button-list-item {
     margin-top: 0;
-    margin-bottom: 0;
-  }
-  .button-list-item .button-list-item:not(:last-child) {
-    margin-left: 8px;
   }
 }
 
@@ -1091,11 +1070,23 @@ a.contacts:hover .header-icon {
   }
 }
 
+.footer-tab {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .footer-tab {
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-tab {
+    margin-bottom: 0;
   }
 }
 
@@ -1192,18 +1183,10 @@ a.contacts:hover .header-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 60px;
-}
-
-@media screen and (min-width: 768px) {
-  .footer-social-thumb {
-    margin-bottom: 0;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   .footer-social-thumb {
-    margin-bottom: 0;
     align-items: flex-start;
   }
 }
